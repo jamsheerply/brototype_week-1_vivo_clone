@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.page-one {
+    width: 100%;
+    height: 714px;
+    background-image: url(./vivo-first-page-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+}
+
+.head {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 86px;
+    display: flex;
+}
+
+.h-icon {
+    width: 10%;
+    height: 86px;
+}
+
+.logo {
+    width: 104px;
+    height: 28px;
+    padding-top: 25px;
+    display: unset
+}
+
+.h-center {
+    width: 80%;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    color: rgb(232, 237, 241);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.nav li {
+    margin: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.h-right {
+    width: 10%;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.search-img {
+    height: 20px;
+    width: 20px;
+}
+
+.person-img {
+    height: 20px;
+    width: 20px;
+}
+
+.page-two {
+    width: 100%;
+    height: 714px;
+    background-color: rgb(241, 244, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-2 {
+    border-radius: 30px;
+    width: 1355px;
+    height: 571px;
+}
+
+.page-three {
+    width: 100%;
+    height: 714px;
+    background-color: rgb(245, 248, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-3 {
+    border-radius: 30px;
+    width: 1355px;
+    height: 571px;
+    margin-bottom: 186px;
+}
+
+.page-four {
+    width: 100%;
+    height: 947px;
+}
+
+.discover {
+    height: 47px;
+    width: 100%;
+}
+
+.discover h2 {
+    font-size: 40px;
+    padding-left: 74px;
+}
+
+.p-four-bottom {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.four-left {
+    width: 32%;
+    height: 842px;
+}
+
+.img-4-1 {
+    border-radius: 24px;
+    width: 430px;
+    height: 326px;
+    margin-left: 81px;
+}
+
+.img-4-2 {
+    border-radius: 24px;
+    width: 430px;
+    height: 435px;
+    margin-left: 81px;
+    margin-top: 34px;
+}
+
+.four-center {
+    width: 32%;
+    height: 842px;
+}
+
+.img-4-3 {
+    border-radius: 25px;
+    width: 430px;
+    height: 677px;
+    margin-left: 29px;
+}
+
+.four-right {
+    width: 32%;
+    height: 842px;
+}
+
+.img-4-4 {
+    border-radius: 24px;
+    width: 430px;
+    height: 435px;
+    margin-left: -23px;
+}
+
+.img-4-5 {
+    border-radius: 24px;
+    width: 430px;
+    height: 376px;
+    margin-top: 34px;
+    margin-left: -23px;
+}
+
+.page-five {
+    width: 100%;
+    height: 100vh;
+    padding-top: 72px;
+    background-color: #242933;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.p-5-top {
+    width: 88%;
+    height: 630px;
+    margin-left: 71px;
+
+}
+
+.p-5-top h3 {
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.p-5-left li {
+    margin-top: 20px;
+    color: #8a8f99;
+}
+
+.p-5-left {
+    width: 60%;
+    height: 630px;
+    float: left;
+
+}
+
+.p-5-left-1 {
+    width: 22%;
+    height: 650px;
+    float: left;
+    margin-left: 10px;
+}
+
+.p-5-left-2 {
+    width: 24%;
+    height: 650px;
+    float: left;
+}
+
+.p-5-left-3 {
+    width: 23%;
+    height: 650px;
+    float: left;
+}
+
+.p-5-left-4 {
+    width: 24%;
+    height: 650px;
+    float: left;
+}
+
+.p-5-right {
+    height: 650px;
+    width: 22%;
+    float: right;
+}
+
+.p-5-bottom {
+    width: 88%;
+    height: 90px;
+    margin-left: 71px;
+    border-top: 1px solid #8a8f99;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-5-right {
+    padding-left: 10px;
+}
+
+.follow-us-1 {
+    margin-top: 30px;
+}
+
+.follow-us-2 {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 43px;
+    height: 36px;
+}
+
+.p-5-right img {
+    color: #8a8f99;
+}
+
+.p-5-right a{
+    display: flex;
+    align-items: center;
+}
+.p-5-bottom p{
+    display: flex;
+    align-items: center;
+    color:#8a8f99;
+}
+.p-5-right p{
+    color:#8a8f99;
+}
+.p-5-bottom img{
+height: 25px;
+width: 30px;
+}
